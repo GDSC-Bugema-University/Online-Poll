@@ -11,11 +11,9 @@ if(age > 18){
 }
 
 function vote1() {
-    var cand1 = Number(document.getElementById("c1").innerHtml)
-    var sp1 = Number(document.getElementById("s1").innerHtml)
+    var votes = Number(document.getElementById("s1").innerHTML)
 
-    sp1.innerHtml = cand1 + 1
-
+    document.getElementById("s1").innerHTML = votes+1
 }
 
 
